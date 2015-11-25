@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
 
 /**
  * Created by kdo on 2015-11-25.
- * ÇÁ·Î±×·¥
+ * í”„ë¡œê·¸ë¨
  */
 @SpringBootApplication
 public class Application {
@@ -18,18 +18,18 @@ public class Application {
     private static final Logger log = LoggerFactory.getLogger(Application.class);
 
     /**
-     * ¸ŞÀÎ
+     * ë©”ì¸
      *
-     * @param args ÀÎÀÚ
+     * @param args ì¸ì
      */
     public static void main(String[] args) {
         SpringApplication.run(Application.class);
     }
 
     /**
-     * Ä¿¸Çµå ·¯³Ê
+     * ì»¤ë§¨ë“œ ëŸ¬ë„ˆ
      *
-     * @param repository ·¹Æ÷ÁöÅä¸®
+     * @param repository ë ˆí¬ì§€í† ë¦¬
      * @return
      */
     @Bean
