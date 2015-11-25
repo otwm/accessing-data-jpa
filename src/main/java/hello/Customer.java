@@ -5,43 +5,43 @@ import javax.persistence.*;
 /**
  * Created by kdo on 2015-11-25.
  *
- * ¼ÒºñÀÚ
+ * ì†Œë¹„ì
  */
 @Entity
 public class Customer {
 
     /**
-     * ¾ÆÀÌµğ
+     * ì•„ì´ë””
      */
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
     /**
-     * ¼º
+     * ì„±
      */
     private String firstName;
 
     /**
-     * ÀÌ¸§
+     * ì´ë¦„
      */
     private String lastName;
 
     /**
-     * ±âº» »ı¼ºÀÚ
+     * ê¸°ë³¸ ìƒì„±ì
      * <pre>
-     *     JPA¸¦ À§ÇØ¼­ ¸¸µé¾î Á³À¸¸ç, ½ÇÁ¦·Î´Â public Customer(String firstName, String lastName) ¸Ş¼­µå¸¦
-     *     ÀÌ¿ëÇÏ¿© °´Ã¼¸¦ »ı¼ºÇÏ¶ó. ÀÌ »ı¼ºÀÚ ¸Ş¼­µåÀÇ È£ÃâÀ» ¸·±â À§ÇØ protected·Î¼­ ¼³Á¤µÇ¾ú´Ù.
+     *     JPAë¥¼ ìœ„í•´ì„œ ë§Œë“¤ì–´ ì¡Œìœ¼ë©°, ì‹¤ì œë¡œëŠ” public Customer(String firstName, String lastName) ë©”ì„œë“œë¥¼
+     *     ì´ìš©í•˜ì—¬ ê°ì²´ë¥¼ ìƒì„±í•˜ë¼. ì´ ìƒì„±ì ë©”ì„œë“œì˜ í˜¸ì¶œì„ ë§‰ê¸° ìœ„í•´ protectedë¡œì„œ ì„¤ì •ë˜ì—ˆë‹¤.
      * </pre>
      */
     protected Customer() {
     }
 
     /**
-     * ±âº» »ı¼ºÀÚ
+     * ê¸°ë³¸ ìƒì„±ì
      *
-     * @param firstName ¼º
-     * @param lastName  ÀÌ¸§
+     * @param firstName ì„±
+     * @param lastName  ì´ë¦„
      */
     public Customer(String firstName, String lastName) {
         this.firstName = firstName;

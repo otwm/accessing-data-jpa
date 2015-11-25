@@ -7,14 +7,14 @@ import org.springframework.data.repository.CrudRepository;
 /**
  * Created by kdo on 2015-11-25.
  *
- * ¼ÒºñÀÚ ·¹Æ÷ÁöÅä¸® ÀÎÅÍÆäÀÌ½º
+ * ì†Œë¹„ì ë ˆí¬ì§€í† ë¦¬ ì¸í„°í˜ì´ìŠ¤
  */
 public interface CustomerRepository extends CrudRepository<Customer, Long> {
 
     /**
-     * ÀÌ¸§À¸·Î Ã£±â
+     * ì´ë¦„ìœ¼ë¡œ ì°¾ê¸°
      *
-     * @param lastName ÀÌ¸§
+     * @param lastName ì´ë¦„
      * @return
      */
     List<Customer> findByLastName(String lastName);
