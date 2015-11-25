@@ -1,6 +1,6 @@
-Question.
-1.¿Ö ½ºÇÁ¸µ CRUDRepository¿¡´Â findAllÀ» MapÀ¸·Î Ã£´Â ¹öÀüÀÌ ¾ø´Â°¡??
+Question. 
+1.ì™œ ìŠ¤í”„ë§ CRUDRepositoryì—ëŠ” findAllì„ Mapìœ¼ë¡œ ì°¾ëŠ” ë²„ì „ì´ ì—†ëŠ”ê°€??
 
-´À³¤Á¡.
-1.¾Æ ÇÏ ÀÌ ³à¼®µµ °á±¹ ÇÏÀÌ¹ö³×Æ® ÄÚ¾î¸¦ Æ÷ÇÔÇÏ³×. ÇÏÀÌ¹ö³×ÀÌÆ®¸¦ »ç¿ëÇÏ¸é¼­ ¸î¸î ½ºÇÁ¸µ¸¸ÀÇ °íÀ¯ ±â´ÉÀ» Ãß°¡ÇÑ°Ç°¡??
-2.³¯·Î ¹ßÀüÇÏ´Â ½ºÇÁ¸µ ºÎÆ®
+ëŠë‚€ì . 				
+1.ì•„ í•˜ ì´ ë…€ì„ë„ ê²°êµ­ í•˜ì´ë²„ë„¤íŠ¸ ì½”ì–´ë¥¼ í¬í•¨í•˜ë„¤. í•˜ì´ë²„ë„¤ì´íŠ¸ë¥¼ ì‚¬ìš©í•˜ë©´ì„œ ëª‡ëª‡ ìŠ¤í”„ë§ë§Œì˜ ê³ ìœ  ê¸°ëŠ¥ì„ ì¶”ê°€í•œê±´ê°€??		 
+2.ë‚ ë¡œ ë°œì „í•˜ëŠ” ìŠ¤í”„ë§ ë¶€íŠ¸		
